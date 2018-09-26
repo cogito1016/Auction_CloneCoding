@@ -93,11 +93,12 @@ img{
 	list-style-position:inside;
 	margin:0px;
 	padding:0px;
+	float:left;
 }
 
 .category ul li{
 	display:inside;
-	float : right;
+	float : left;
 }
 
 .cate_left{
