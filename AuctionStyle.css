@@ -1,5 +1,7 @@
 
-
+*{
+	border:1px solid gray ;
+}
 body{
 	font-size : 10pt;
 	font-color : black;
@@ -8,6 +10,8 @@ body{
 
 img{
 	border:0px;
+	margin:0px;
+	padding:0px;
 }
 
 #wrap{
@@ -19,15 +23,15 @@ img{
 }
 
 #page_header{
-	background-color:red;
+	border: 1px solid red ;
 }
 
 #page_content{
-	background-color:green;
+	border: 1px solid green;
 }
 
 #page_footer{
-	background-color:blue;
+	border : 1px solid blue;
 }
 
 .login_nav{
@@ -39,11 +43,67 @@ img{
 	list-style-position:inside;
 	padding:0px;
 	margin:0px;
+	margin-top:10px;
 }
 
+.login_nav ul li{
+	font-size : 2pt;
+
+	display:inline;
+	float:right;
+
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	padding-left:8px;
+	padding-right:8px;
+
+}
 
 .logo{
-	background-color:yellow;
-	width:250px;
+	width:200px;
 	float:left;
+
+	margin-top:20px;
 }
+
+.search{
+	margin-top : 50px;
+	margin-left : 10px;
+	border-color:black;
+	width:800px;
+	display:inline;
+
+}
+
+.search input{
+	border: white;
+	border-bottom : 4px solid red;
+	
+}
+
+.category{
+	margin-top : 30px;
+	border : white;
+	border-top:1px solid gray;
+	border-bottom:2px solid black;
+}
+
+.cate_left{
+	display:inline;
+}
+
+.cate_center{
+	display:inline;
+}
+
+.cate_right{
+	display:inline;
+}
+
+
+
+
+
+
+
+
