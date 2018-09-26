@@ -88,16 +88,34 @@ img{
 	border-bottom:2px solid black;
 }
 
+.category ul{
+	list-style-type:none;
+	list-style-position:inside;
+	margin:0px;
+	padding:0px;
+}
+
+.category ul li{
+	display:inside;
+	float : right;
+}
+
 .cate_left{
 	display:inline;
+
+	width:200px;
 }
 
 .cate_center{
 	display:inline;
+
+	width:200px;
 }
 
 .cate_right{
 	display:inline;
+
+	width:200px;
 }
 
 
