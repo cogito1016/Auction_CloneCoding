@@ -1,7 +1,10 @@
+/*
 
 *{
 	border:1px solid gray;
 }
+
+*/
 
 body{
 	font-size : 10pt;
@@ -15,7 +18,14 @@ img{
 	padding:0px;
 }
 
+hr{
+	margin:0;
+}
+
+
+
 #wrap{
+	border: 1px solid red;
 	width:989px;
 	margin-top:0px;
 	margin-bottom:0px;
@@ -23,8 +33,9 @@ img{
 	margin-left:auto;
 }
 
+
 #page_header{
-	border: 1px solid red ;
+	/*border: 1px solid red ;*/
 }
 
 #page_content{
@@ -32,7 +43,7 @@ img{
 }
 
 #page_footer{
-	border : 1px solid blue;
+	/*border : 1px solid blue;*/
 }
 
 .login_nav{
@@ -44,7 +55,6 @@ img{
 	list-style-position:inside;
 	padding:0px;
 	margin:0px;
-	margin-top:10px;
 }
 
 .login_nav ul li{
@@ -84,12 +94,13 @@ img{
 }
 
 .category{
+	padding-top:10px;
+	padding-bottom:10px;
 	margin-top : 30px;
 	border : white;
 	border-top:1px solid gray;
 	border-bottom:2px solid black;
 
-	font:13pt bold;
 }
 
 
@@ -101,15 +112,19 @@ img{
 
 	margin:0px;
 	padding:0px;
+	margin-left:0px;
 	
 }
 
 
 .category ul li{
 	display:inline;
-
+	border:white;
+	border-left:1px solid gray;
+	border-right:1px solid gray;
 	margin:0px;
-	padding:0px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 
@@ -119,18 +134,47 @@ img{
 
 .cate_center{
 	display:inline;
-	margin-left : 100px;
+	margin-left : 50px;
 }
 
 .cate_right{
 	display:inline;
-	margin-left : 150px;
+	margin-left : 220px;
+}
+
+.side_nav{
+	margin:0px;
+	padding:0px;
+	width: 150px;
 }
 
 
+.side_nav ul{
+	list-style-type:none;
+	list-style-position:inside;
+	margin:0px;
+	padding:0px;
 
 
+}
+
+.side_nav ul li{
+	background-color:black;
+	color:white;
+
+	padding:8px;
+	border:white;
+	border-bottom:1px solid gray;
+}
+
+.main_img{
+	
+	display:inline;
+	width:50px;
+	height:50px;
+	border:2px solid green;
 
 
+}
 
 
