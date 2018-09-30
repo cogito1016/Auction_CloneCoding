@@ -1,8 +1,7 @@
 /*
 *{
 	border:1px solid gray;
-}
-*/
+}*/
 
 
 body{
@@ -77,11 +76,23 @@ hr{
 	width:200px;
 	float:left;
 
-	margin-top:20px;
+}
+
+.logo img{
+	padding-left:100px;
+}
+
+.top_title{
+}
+
+.top_title h1{
+	background-color:pink;
+	font-size : 30pt;
+	margin: 0px;
+	padding : 0px;
 }
 
 .search{
-	margin-top : 50px;
 	margin-left : 10px;
 	border-color:black;
 	width:800px;
@@ -98,7 +109,7 @@ hr{
 
 .search input{
 	border: white;
-	border-bottom : 4px solid red;
+	border-bottom : 4px solid blue;
 	
 }
 
@@ -109,6 +120,8 @@ hr{
 	border : white;
 	border-top:1px solid gray;
 	border-bottom:2px solid black;
+
+	font-size : 13pt;
 
 }
 
@@ -215,9 +228,7 @@ hr{
 
 .center_logo{
 	display:block;
-	padding-left:380px;
-	margin-top:40px;
-	margin-bottom:20px;
+	margin-left:-10px;
 
 }
 
@@ -225,6 +236,19 @@ hr{
 
 }
 
+.foot_left{
+	display:inline-block;
+}
+
+.foot_center{
+
+	display:inline-block;
+
+}
+
+.foot_right{
+	display:inline-block;
+}
 
 
 
